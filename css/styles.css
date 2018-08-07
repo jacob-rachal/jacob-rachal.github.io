@@ -3,14 +3,22 @@ body {
   font-family: 'PT Mono', monospace;
   position: relative;
 }
-
+.siz {
+  font-size: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
 
 .text-white {
   color:#ffffff;
 }
+.back-black {
+  color: #000000;
+}
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Playfair Display', serif;
+  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Work Sans', sans-serif;
 }
 
 
@@ -53,11 +61,11 @@ h1, h2, h3, h4, h5, h6 {
 /* Bootstrap navbar has a margin-bottom; set to 0 :: fixed by navbar-fixed-top*/
 .home-section {
   /* background food dish */
-  background-image: url('../img/hero.jpg');
-  background-size: cover;
-  /* cover expands/shrinks image to cover the sixe of the container */
+  background-image: url('../img/A-10_of_the_future.jpg');
   background-attachment: fixed;
   /* fixed to the window */
+  background-size: cover;
+  /* cover expands/shrinks image to cover the sixe of the container */
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
@@ -71,7 +79,23 @@ h1, h2, h3, h4, h5, h6 {
 .menu-section {
   padding-top:60px;
   padding-bottom:60px;
-}
+  }
+/* Lemon Twist gradient background */
+/* background: #3CA55C;   */
+/* fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #B5AC49, #3CA55C);   */
+/* Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to right, #B5AC49, #3CA55C);  */
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/* Evening Sunshine */
+/* background: #b92b27;  */
+/* fallback for old browsers */
+ /* background: -webkit-linear-gradient(to right, #b92b27, #1565c0); */
+  /* Chrome 10-25, Safari 5.1-6 */
+ /* background: linear-gradient(to right, #b92b27, #1565c0);  */
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 .tab-pane {
   padding-top: 60px;
@@ -83,6 +107,29 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #eeeeee;
+  display: flex;
+  align-items: center;
+  /* rotated Evening Sunshine */
+  background: #b92b27; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #b92b27, #1565c0); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #b92b27, #1565c0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.circle {
+  /* This kinda works, but not what I was hoping */
+  /* background-image: url('../img/heroic-pose.png');
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 25%;   */
+  height: 90vh;
+}
+.circle:hover
+{
+        border-radius:50%;
 }
 
 /* END FOOTER / RESERVATION SECTIOn */

@@ -3,12 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chef's Table</title>
-    <!-- Jacob Rachal's version of the Chef's Table fake webpage -->
-    <!-- 7/30/2018 -->
-    <!-- Update 08/03/2018: I think I am done? Wait, no I am not, I need to take care of the smooth fade-in for the menu items. -->
-    <!-- Update on the update 08/03/2018: NOW I am done.                Hopefully. -->
-    <!-- Possible to-dos: Connect the fontawesome icons @ the bottom to their respective sites. -->
+    <title>Jacob Rachal</title>
+    <!-- Jacob Rachal's portfolio -->
+    <!-- 8/6/2018 -->
     <!-- link google fonts here -->
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
     <!-- font-family: 'Permanent Marker', cursive; -->
@@ -16,6 +13,8 @@
     <!-- font-family: 'Playfair Display', serif; -->
     <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
     <!-- font-family: 'PT Mono', monospace; -->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <!-- font-family: 'Work Sans', sans-serif; -->
     <!-- link all the css here -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
@@ -35,7 +34,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="index.html">
-                    <h1>Chef's Table</h1>
+                    <h1>Jacob Rachal</h1>
                 </a>
             </div> <!-- /.navbar-header -->
 
@@ -44,9 +43,10 @@
                 <ul class="nav navbar-nav navbar-right">
 
                     <li><a href="#home-section">Home</a></li>
-                    <!-- this href links to "  <section id="home-section" class="home-section text-white">  " via ids -->
-                    <li><a href="#menu-section">Explore the Menu</a></li>
-                    <li><a href="#reservation-section">Make a Reservation</a></li>
+                    <!-- Have a section here about Me? or after the portfolio section? -->
+                    <li><a href="#menu-section">Things I've Made</a></li>
+                    <!-- Include an education section? Strech goal. -->
+                    <li><a href="#reservation-section">Contact Me!</a></li>
 
                     <!-- Leave nav links out for now, at least until Part 2 -->
                 </ul>
@@ -63,36 +63,46 @@
             <div class="row">
                 <div class="col-sm-12">
                     <h1>
-                      There is room for you at our table.
+                      Jacob Rachal
                     </h1>
-                    <a href="#menu-section" class="btn btn-primary">View our menu</a>
-                    <a href="#reservation-section" class="btn btn-primary">Make a reservation</a>
+                    <h2>
+                      Reader. Builder. Future Developer.
+                    </h2>
+                    <h5>
+                      (And a bit of a sci-fi nerd)
+                    </h5>
+                    <!-- <a href="#menu-section" class="btn btn-primary">View our menu</a>
+                    <a href="#reservation-section" class="btn btn-primary">Make a reservation</a> -->
+                    <!-- Buttons have been (temporairly) YOINKED. Decisions regarding them are pending.  -->
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- slap in a "about-me" section here! -->
 
     <section id="menu-section" class="menu-section">
       <!-- this has nothing in it ath thi time, but it does link to the nav link. -->
       <div class="container">
         <div class="row">
           <div class="col-md-10 col-md-offset-1">
-            <h2>Explore our menu</h2>
+            <h2>My Portfolio</h2>
+            <!-- shift this header over towards the center -->
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              (have some actually thoughtful words here instead of lorem ipsum.)
             </p>
             <div>
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs" role="tablist">
-                    <li role="presentation" class="active"><a href="#menu-appetizers" aria-controls="home" role="tab" data-toggle="tab"><h3>Appetizers</h3></a></li>
-                    <li role="presentation"><a href="#menu-entrees" aria-controls="profile" role="tab" data-toggle="tab"><h3>Entrees</h3></a></li>
-                    <li role="presentation"><a href="#menu-desserts" aria-controls="messages" role="tab" data-toggle="tab"><h3>Desserts</h3></a></li>
-                    <li role="presentation"><a href="#menu-cocktails" aria-controls="settings" role="tab" data-toggle="tab"><h3>Cocktails</h3></a></li>
+                    <li role="presentation" class="active"><a href="#menu-startup" aria-controls="home" role="tab" data-toggle="tab"><h3>StartUP</h3></a></li>
+                    <li role="presentation"><a href="#menu-food" aria-controls="profile" role="tab" data-toggle="tab"><h3>Chef's Table</h3></a></li>
+                    <li role="presentation"><a href="#menu-walkabout" aria-controls="messages" role="tab" data-toggle="tab"><h3>WanderLust</h3></a></li>
+                    <li role="presentation"><a href="#menu-SPACEPREMIUMS" aria-controls="settings" role="tab" data-toggle="tab"><h3>ZZZZ Insurance</h3></a></li>
                 </ul>
 
                 <!-- Tab panes -->
                 <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane active fade in" id="menu-appetizers">
+                    <div role="tabpanel" class="tab-pane active fade in" id="menu-startup">
                       <!-- appetizers -->
                       <!-- .row>.col-md-6*2 do for the rest of these. -->
                         <div class="row">
@@ -100,44 +110,81 @@
                                 <!-- left side appetizers -->
                                   <ul>
                                       <li>
-                                          <h4>Spring Salad</h4>
+                                          <h4>StartUP</h4>
                                           <p>
                                             Our little helper elves diligently scour the Underealm for the finest ingredients to garnish our salads with.
                                           </p>
+                                          <!-- For the portfolio, have a short description of the site with links to the repo & running versions -->
                                       </li>
                                   </ul>
 
                               </div>
                               <div class="col-md-6">
                                 <!-- right side appetizers -->
+                                <!-- For the prtfolio, replace this static image with a carousel with images showing off screenshots of the site in question. -->
                                 <img src="img/appetizers.jpg" alt="fancy-lookin' salad" class="img-responsive center-block menu-inside-img">
                               </div>
                         </div>
                     </div>
-                    <div role="tabpanel" class="tab-pane fade" id="menu-entrees">
+                    <div role="tabpanel" class="tab-pane fade" id="menu-food">
                       <!-- entees -->
                       <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                           <ul>
                             <li>
-                              <h4>Spaghetti & Meatballs</h4>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit eveniet magni iure obcaecati maxime officia a incidunt, at repudiandae. Vitae.</p>
+                              <h4>Chef's Table</h4>
+                              <p>(need to put some proper words here regarding what this site is, and links to the repo and running version. ).</p>
                             </li>
                           </ul>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-8">
                           <!-- picture here. -->
-                          <img src="img/entrees.jpg" alt="fancy-lookin' salad" class="img-responsive center-block menu-inside-img">
+                          <!-- <img src="img/entrees.jpg" alt="fancy-lookin' salad" class="img-responsive center-block menu-inside-img"> -->
+                          <!-- Beginning of carousel container -->
+                      				<!-- <section class="round-n-round"> -->
+                      					<!-- AKA the quote section -->
+                                  <!-- <div class="container"> -->
+                                      <div class="row">
+                                          <div class="col-md-8 col-md-offset-2">
+                                              <div id="carousel-example-generic" class="carousel slide quote-carousel" data-ride="carousel">
+                                                  <!-- Indicators -->
+                                                  <ol class="carousel-indicators">
+                                                      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                                      <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+                                                   </ol>
+
+                                                  <!-- Wrapper for slides -->
+                                                  <div class="carousel-inner" role="listbox">
+                                                      <div class="item active">
+                                                          <blockquote>
+                                                          <!-- <h3>Amazing</h3> -->
+                                                          <p class="lead"><img src="img/entrees.jpg" alt="fancy-lookin' salad" class="img-responsive center-block menu-inside-img"></p>
+                                                          <!-- <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer> -->
+                                                          </blockquote>
+                                                      </div>
+                                                      <div class="item">
+                                                          <blockquote>
+                                                          <!-- <h3>Amazing</h3> -->
+                                                          <p class="lead"><img src="img/entrees.jpg" alt="fancy-lookin' salad" class="img-responsive center-block menu-inside-img"></p>
+                                                          <!-- <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer> -->
+                                                          </blockquote>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  <!-- </div> -->
+                          <!-- </section> -->
                         </div>
                       </div>
                     </div>
-                    <div role="tabpanel" class="tab-pane fade" id="menu-desserts">
+                    <div role="tabpanel" class="tab-pane fade" id="menu-walkabout">
                       <!-- desserts -->
                         <div class="row">
                           <div class="col-md-6">
                             <ul>
                               <li>
-                                <h4>Chocolate Lava Cake</h4>
+                                <h4>Wanderlust</h4>
                                 <p>Look, this is the closest you can get to dying via chololate overdose.  Need I say more? </p>
                               </li>
                             </ul>
@@ -148,13 +195,13 @@
                           </div>
                         </div>
                     </div>
-                    <div role="tabpanel" class="tab-pane fade" id="menu-cocktails">
+                    <div role="tabpanel" class="tab-pane fade" id="menu-SPACEPREMIUMS">
                       <!-- cocktails -->
                       <div class="row">
                         <div class="col-md-6">
                           <ul>
                             <li>
-                              <h4>Lemon Drop</h4>
+                              <h4>ZZZZ Insurance</h4>
                               <p>More Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea voluptas esse quibusdam commodi temporibus perspiciatis!</p>
                             </li>
                           </ul>
@@ -184,63 +231,27 @@
                 <div class="col-sm-12">
                   <!-- forms & form tags -->
                   <h2>
-                    Make a reservation
+                    Get in touch with me!
                   </h2>
-                  <form>
-                        <!-- "
-                                      First Name:"
-                        <br>
-                        <input type="text" name="firstname">
-                        <br>
-                        "
-                                      Last Name:"
-                        <br>
-                        <input type="text" name="lastname">
-                        <br> -->
-                        <!-- ...okay, what is this, why does the spacing work, and did we regress to Early Microsoft Word-style formatting? -->
-                        <!-- I'm not complaining too much due to it working as intended. Just slightly dumbfounded. -->
-                        <!-- Update: Aaahh, okay, that was NOT the correct version of the page to look at.  My mistake. -->
-                        <!-- The below form, however, IS what I want. -->
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">First Name:</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="First Name">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Last Name:</label>
-                            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Last Name">
-                        </div>
-                        <button type="submit" class="btn btn-default">Submit</button>
-                        <!-- <div class="form-group">
-                          <label for="exampleInputFile">File input</label>
-                          <input type="file" id="exampleInputFile">
-                          <p class="help-block">Example block-level help text here.</p>
-                        </div>
-                        <div class="checkbox">
-                          <label>
-                            <input type="checkbox"> Check me out
-                          </label>
-                        </div>
-                        <button type="submit" class="btn btn-default">Submit</button> -->
-                  </form>
+                  <!-- Have emails here -->
+                  <h4>
+                    EMAIL:: jacobrachal@gmail.com
+                  </h4>
+                 <!-- ...and then have a sub hero image here with that unique css transitioning of changing a square to an oval. -->
                   <p>
-                     <i class="fab fa-facebook-square"></i>
-                     <i class="fab fa-twitter"></i>
-                     <i class="fab fa-instagram"></i>
+                      I have a Github account. Please check it out!
+                      <br>
+                      <a href="https://github.com/jacob-rachal">
+                       <i class="fab fa-github siz"></i>
+                      </a>
+                      <!-- Someday I'll actually have a MocPages account. -->
                   </p>
-                  <!-- <form action="">
-                      First Name:<br>
-                      <input type="text"><br>
-                      Last Name:<br>
-                      <input type="text"><br> -->
-                      <!-- the submit button activates the form's action -->
-                      <!-- <button type="submit" class="btn btn-primary">Submit</button>
-                      <p>
-                         <i class="fab fa-facebook-square"></i>
-                         <i class="fab fa-twitter"></i>
-                         <i class="fab fa-instagram"></i>
-                      </p>
-                  </form> -->
-                  <!-- action says what to do once have input. Also, this form is missing a slew of security things -->
+                  <!-- have that subhero image in this following div -->
+                  <div><!-- class="circle"> -->
+                    <!-- <p>See You Later</p> -->
+                    <img src="img/heroic-pose.png" alt="LEGO mechsuit, ready for action!" class="img-responsive center-block menu-inside-img circle">
+                  </div>
+
                 </div>
             </div>
         </div>
