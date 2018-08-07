@@ -1,11 +1,2 @@
-# Chefs Table Project
-This repository is the Boilerplate for Chef's Table Class Project. It contains all the files needed to get started on the project.
-
-## Part 1 Solution
-https://geekwiseb2.github.io/chefs-table-solution/demo-src/demo-part1.html
-
-## Full Solution
-https://geekwiseb2.github.io/chefs-table-solution/demo-src/demo-full-solution.html
-
-## Extra Credit Solution
-https://geekwiseb2.github.io/chefs-table-solution/
+# My Portfolio Project
+This repository is the Boilerplate for Jacob Rachal's Portfolio Project, for Geekwise's class "Mobile-Friendly Websites". It started life as a copied version of one of those websites that I worked on, but has undergone changes to make it what it is today.  Furthermore, it contains links to all the projects I have made since I started taking classes @ Geekwise, and maybe some stuff I made during my time at Fresno State.  If I get around to it. 
