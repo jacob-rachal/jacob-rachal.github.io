@@ -8,20 +8,16 @@ body {
   margin-left: 5px;
   margin-right: 5px;
 }
-
 .text-white {
   color:#ffffff;
 }
 .back-black {
   color: #000000;
 }
-
 h1, h2, h3, h4, h5, h6 {
   /* font-family: 'Playfair Display', serif; */
   font-family: 'Work Sans', sans-serif;
 }
-
-
 /* END GLOBALS */
 
 /* NAVBAR BEGIN */
