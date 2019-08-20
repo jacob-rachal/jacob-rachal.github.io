@@ -57,7 +57,11 @@ h1, h2, h3, h4, h5, h6 {
 /* Bootstrap navbar has a margin-bottom; set to 0 :: fixed by navbar-fixed-top*/
 .home-section {
   /* background food dish */
-  background-image: url('../img/A-10_of_the_future.jpg');
+  /*background-image: url('../img/A-10_of_the_future.jpg');*/
+  /* change this to be from UI gradients or some other picture of me*/
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #0f2027, #203a43, #2c5364); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-attachment: fixed;
   /* fixed to the window */
   background-size: cover;
