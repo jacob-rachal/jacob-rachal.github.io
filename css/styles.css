@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   /* Aligns the child of this class; i.e. container */
 }
-div {
+.flexington {
   display: -webkit-flex; /* Safari */
   -webkit-flex-wrap: wrap; /* Safari 6.1+ */
   display: flex;
