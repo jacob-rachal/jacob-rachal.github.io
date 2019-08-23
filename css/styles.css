@@ -75,10 +75,6 @@ h1, h2, h3, h4, h5, h6 {
   /* Aligns the child of this class; i.e. container */
 }
 
-.mypic {
-  background-image: url('../img/FullSizeRender.JPEG');
-}
-
 /* MENU-SECTION */
 .menu-section {
   padding-top:60px;
